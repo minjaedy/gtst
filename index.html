@@ -101,6 +101,8 @@
     padding-left:max(20px, env(safe-area-inset-left));
     padding-right:max(20px, env(safe-area-inset-right));
   }
+  /* 아이폰 노치·상태바 아래로 헤더가 잠기지 않도록 */
+  header.top{ padding-top:env(safe-area-inset-top, 0px); }
   .container{
     padding-left:max(20px, env(safe-area-inset-left));
     padding-right:max(20px, env(safe-area-inset-right));
